@@ -888,6 +888,14 @@
     "action": "Safe to sell after upgrading Scrappy to level 4."
   },
   {
+    "name": "Rusted Tools",
+    "rarity": "Rare",
+    "recycleFor": "8x Metal Parts, 1x Steel Spring",
+    "keepFor": "Core Components",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
     "name": "test",
     "rarity": "Uncommon",
     "recycleFor": "2x Assorted Seeds",
