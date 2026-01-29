@@ -1,0 +1,19 @@
+{
+  "name": "raiders-handbook",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "bunx --bun astro dev",
+    "build": "bunx --bun astro build",
+    "preview": "bunx --bun astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "astro": "^5.16.16",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.7"
+  }
+}

@@ -1,0 +1,898 @@
+[
+  {
+    "name": "Advanced Arc Powercell",
+    "rarity": "Rare",
+    "recycleFor": "2x ARC Powercell",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Advanced Electrical Components",
+    "rarity": "Rare",
+    "recycleFor": "1x Electrical Components, 1x Wires",
+    "keepFor": "10x for Gear Bench III and Utility Station III Upgrades",
+    "sellPrice": "$1750",
+    "action": "Keep"
+  },
+  {
+    "name": "Advanced Mechanical Components",
+    "rarity": "Rare",
+    "recycleFor": "1x Mechanical Components, 1x Steel Spring",
+    "keepFor": "5x for Gunsmith III Upgrade",
+    "sellPrice": "$1750",
+    "action": "Keep"
+  },
+  {
+    "name": "Agave",
+    "rarity": "Uncommon",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "Agave Juice",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "Quick Use for Healing",
+    "sellPrice": "$1800",
+    "action": "Keep"
+  },
+  {
+    "name": "Air Freshener",
+    "rarity": "Uncommon",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Sell"
+  },
+  {
+    "name": "Alarm Clock",
+    "rarity": "Rare",
+    "recycleFor": "6x Plastic Parts, 1x Processor",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "Antiseptic",
+    "rarity": "Rare",
+    "recycleFor": "10x Chemical",
+    "keepFor": "Crafting Heals",
+    "sellPrice": "$1000",
+    "action": "Keep"
+  },
+  {
+    "name": "Apricot",
+    "rarity": "Uncommon",
+    "recycleFor": "3x Assorted Seeds",
+    "keepFor": "17x for Scrappy Level III and V",
+    "sellPrice": "$640",
+    "action": "Keep until upgrades are complete; sell once done"
+  },
+  {
+    "name": "ARC Alloy",
+    "rarity": "Uncommon",
+    "recycleFor": "2x Metal Parts",
+    "keepFor": "18x for Explosives, Medical Lab, and Utility Station Level I Upgrades",
+    "sellPrice": "$200",
+    "action": "Keep"
+  },
+  {
+    "name": "ARC Circuitry",
+    "rarity": "Rare",
+    "recycleFor": "2x ARC Alloy",
+    "keepFor": "10x for Refiner III Upgrade",
+    "sellPrice": "$1000",
+    "action": "Keep"
+  },
+  {
+    "name": "ARC Coolant",
+    "rarity": "Rare",
+    "recycleFor": "16x Chemicals",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "ARC Flex Rubber",
+    "rarity": "Rare",
+    "recycleFor": "16x Rubber Parts",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Keep or Sell if excess"
+  },
+  {
+    "name": "ARC Motion Core",
+    "rarity": "Rare",
+    "recycleFor": "2x ARC Alloy",
+    "keepFor": "5x for Refiner II Upgrades",
+    "sellPrice": "$1000",
+    "action": "Keep"
+  },
+  {
+    "name": "ARC Performance Steel",
+    "rarity": "Rare",
+    "recycleFor": "12x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Recycle"
+  },
+  {
+    "name": "ARC Powercell",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "5x for Refiner I and Crafting Shield Rechargers",
+    "sellPrice": "$640",
+    "action": "Keep"
+  },
+  {
+    "name": "ARC Synthetic Resin",
+    "rarity": "Rare",
+    "recycleFor": "14x Plastic Parts",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "ARC Thermo Lining",
+    "rarity": "Rare",
+    "recycleFor": "16x Fabric",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Recycle"
+  },
+  {
+    "name": "Assorted Seeds",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$100 (Per seed)",
+    "action": "Keep"
+  },
+  {
+    "name": "Bastion Cell",
+    "rarity": "Epic",
+    "recycleFor": "2x ARC Alloy, 2x Advanced Mechanical Components",
+    "keepFor": "6x for Gear Bench III Upgrade",
+    "sellPrice": "$5000",
+    "action": "Keep until upgrades are complete; sell once done"
+  },
+  {
+    "name": "Battery",
+    "rarity": "Uncommon",
+    "recycleFor": "2x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$250",
+    "action": "Keep"
+  },
+  {
+    "name": "Bicycle Pump",
+    "rarity": "Rare",
+    "recycleFor": "4x Canister, 10x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Recycle"
+  },
+  {
+    "name": "Bombardier Cell",
+    "rarity": "Epic",
+    "recycleFor": "2x Advanced Mechanical Components, 2x ARC Alloys",
+    "keepFor": "6x for Refiner III Upgrades",
+    "sellPrice": "$5000",
+    "action": "Keep until upgrades are complete; sell once done"
+  },
+  {
+    "name": "Breathtaking Snow Globe",
+    "rarity": "Epic",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$7000",
+    "action": "Sell"
+  },
+  {
+    "name": "Broken Flashlight",
+    "rarity": "Rare",
+    "recycleFor": "2x Battery, 6x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Recycle"
+  },
+  {
+    "name": "Broken Guidance System",
+    "rarity": "Rare",
+    "recycleFor": "4x Processor",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Recycle"
+  },
+  {
+    "name": "Broken Handheld Radio",
+    "rarity": "Rare",
+    "recycleFor": "3x Sensors, 2x Wires",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Recycle"
+  },
+  {
+    "name": "Broken Taser",
+    "rarity": "Rare",
+    "recycleFor": "2x Battery, 2x Wires",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "Burned ARC Circuitry",
+    "rarity": "Uncommon",
+    "recycleFor": "2x ARC Alloy",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Camera Lens",
+    "rarity": "Uncommon",
+    "recycleFor": "8x Plastic Parts",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Candle Holder",
+    "rarity": "Uncommon",
+    "recycleFor": "8x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Canister",
+    "rarity": "Uncommon",
+    "recycleFor": "3x Plastics Parts",
+    "keepFor": "",
+    "sellPrice": "$300",
+    "action": "Keep"
+  },
+  {
+    "name": "Cat Bed",
+    "rarity": "Uncommon",
+    "recycleFor": "",
+    "keepFor": "1x for Scrappy Level IV Upgrades",
+    "sellPrice": "$1000",
+    "action": "Keep until upgrade is complete; sell once done"
+  },
+  {
+    "name": "Chemicals",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$50",
+    "action": "Keep"
+  },
+  {
+    "name": "Coffee Pot",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "Complex Gun Parts",
+    "rarity": "Epic",
+    "recycleFor": "2x Simple Gun Parts",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Keep"
+  },
+  {
+    "name": "Coolant",
+    "rarity": "Rare",
+    "recycleFor": "5x Chemicals, 2x Oil",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "Cooling Coil",
+    "rarity": "Rare",
+    "recycleFor": "6x Chemicals, 2x Steel Springs",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "Cooling Fan",
+    "rarity": "Rare",
+    "recycleFor": "14x Plastic Parts, 4x Wires",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Sell"
+  },
+  {
+    "name": "Cracked Bioscanner",
+    "rarity": "Rare",
+    "recycleFor": "3x Rubber Parts, 3x Battery",
+    "keepFor": "2x for Medical Lab II Upgrade",
+    "sellPrice": "$1000",
+    "action": "Keep until upgrade is complete; sell once done"
+  },
+  {
+    "name": "Crude Explosives",
+    "rarity": "Uncommon",
+    "recycleFor": "3x Chemicals",
+    "keepFor": "5x for Explosives Station II Upgrade",
+    "sellPrice": "$270",
+    "action": "Keep"
+  },
+  {
+    "name": "Crumpled Plastic Bottle",
+    "rarity": "Uncommon",
+    "recycleFor": "4x Plastic Parts",
+    "keepFor": "",
+    "sellPrice": "$270",
+    "action": "Recycle"
+  },
+  {
+    "name": "Damaged ARC Motion Core",
+    "rarity": "Uncommon",
+    "recycleFor": "2x ARC Alloy",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Damaged Fireball Burner",
+    "rarity": "Common",
+    "recycleFor": "1x ARC Alloy",
+    "keepFor": "",
+    "sellPrice": "$270",
+    "action": "Recycle"
+  },
+  {
+    "name": "Damaged Heat Sink",
+    "rarity": "Rare",
+    "recycleFor": "6x Metal Parts, 2x Wires",
+    "keepFor": "2x for Utility Station II Upgrade",
+    "sellPrice": "$1000",
+    "action": "Keep until upgrade is complete; sell once done"
+  },
+  {
+    "name": "Damaged Hornet Driver",
+    "rarity": "Common",
+    "recycleFor": "2x ARC Alloy",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Damaged Rocketeer Driver",
+    "rarity": "Common",
+    "recycleFor": "3x ARC Alloy",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Sell"
+  },
+  {
+    "name": "Damaged Tick Pod",
+    "rarity": "Common",
+    "recycleFor": "1x ARC Alloy",
+    "keepFor": "",
+    "sellPrice": "$270",
+    "action": "Recycle"
+  },
+  {
+    "name": "Dartboard",
+    "rarity": "Uncommon",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Sell"
+  },
+  {
+    "name": "Deflated Football",
+    "rarity": "Uncommon",
+    "recycleFor": "9x Rubber Parts, 9x Fabric",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Recycle"
+  },
+  {
+    "name": "Degraded ARC Rubber",
+    "rarity": "Uncommon",
+    "recycleFor": "11x Rubber Parts",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Diving Goggles",
+    "rarity": "Rare",
+    "recycleFor": "12x Rubber Parts",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Dog Collar",
+    "rarity": "Rare",
+    "recycleFor": "8x Fabric, 1x Metal Parts",
+    "keepFor": "1x Scrappy for Level II Upgrade",
+    "sellPrice": "$640",
+    "action": "Keep until upgrade is complete; recycle once done"
+  },
+  {
+    "name": "Dried-Out ARC Resin",
+    "rarity": "Uncommon",
+    "recycleFor": "9x Plastic Parts",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Duct Tape",
+    "rarity": "Uncommon",
+    "recycleFor": "3x Fabric",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Keep"
+  },
+  {
+    "name": "Durable Cloth",
+    "rarity": "Uncommon",
+    "recycleFor": "6x Fabric",
+    "keepFor": "5x for Medical Lab II Upgrade",
+    "sellPrice": "$640",
+    "action": "Keep"
+  },
+  {
+    "name": "Electrical Components",
+    "rarity": "Uncommon",
+    "recycleFor": "3x Plastics Parts, 3x Rubber Parts",
+    "keepFor": "10x Gear Bench II and Utility Station II Upgrades",
+    "sellPrice": "$640",
+    "action": "Keep"
+  },
+  {
+    "name": "Empty Wine Bottle",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "Exodus Modules",
+    "rarity": "Epic",
+    "recycleFor": "2x Magnet, 1x Mechanical Components",
+    "keepFor": "",
+    "sellPrice": "$2750",
+    "action": "Keep"
+  },
+  {
+    "name": "Expired Pasta",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Keep"
+  },
+  {
+    "name": "Expired Respirator",
+    "rarity": "Rare",
+    "recycleFor": "8x Rubber Parts, 4x Fabric",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Explosive Compound",
+    "rarity": "Rare",
+    "recycleFor": "2x Crude Explosives",
+    "keepFor": "5x for Explosives Station III Upgrade",
+    "sellPrice": "$1000",
+    "action": "Keep"
+  },
+  {
+    "name": "Fabric",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "80x for Gear Bench I and Medical Lab I Upgrades",
+    "sellPrice": "$50",
+    "action": "Keep"
+  },
+  {
+    "name": "Faded Photograph",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Sell"
+  },
+  {
+    "name": "Fertilizer",
+    "rarity": "Uncommon",
+    "recycleFor": "2x Assorted Seeds",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "Film Reel",
+    "rarity": "Rare",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Sell"
+  },
+  {
+    "name": "Fine Wristwatch",
+    "rarity": "Rare",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$3000",
+    "action": "Sell"
+  },
+  {
+    "name": "Fireball Burner",
+    "rarity": "Uncommon",
+    "recycleFor": "1x ARC Alloy, 1x Crude Explosives",
+    "keepFor": "8x for Refiner II Upgrade",
+    "sellPrice": "$640",
+    "action": "Keep until upgrade is complete; recycle once done"
+  },
+  {
+    "name": "Flow Controller",
+    "rarity": "Rare",
+    "recycleFor": "1x Advanced Mechanical Components, 1x Sensors",
+    "keepFor": "",
+    "sellPrice": "$3000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Frequency Modulation Box",
+    "rarity": "Rare",
+    "recycleFor": "1x Advanced Electrical Components, 1x Speaker Component",
+    "keepFor": "",
+    "sellPrice": "$3000",
+    "action": "Recycle if short on materials; if not, sell *Keep 3x for Expedition*"
+  },
+  {
+    "name": "Fried Motherboard",
+    "rarity": "Rare",
+    "recycleFor": "5x Plastic Parts, 2x Electrical Components",
+    "keepFor": "3x for Utility Station III Upgrade",
+    "sellPrice": "$2000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Frying Pan",
+    "rarity": "Rare",
+    "recycleFor": "8x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Garlic Press",
+    "rarity": "Uncommon",
+    "recycleFor": "12x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Recycle"
+  },
+  {
+    "name": "Geiger Counter",
+    "rarity": "Epic",
+    "recycleFor": "3x Battery, 1x Exodus Modules",
+    "keepFor": "",
+    "sellPrice": "$3500",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Great Mullein",
+    "rarity": "Uncommon",
+    "recycleFor": "2x Assorted Seeds",
+    "keepFor": "",
+    "sellPrice": "$300",
+    "action": "Keep"
+  },
+  {
+    "name": "Headphones",
+    "rarity": "Rare",
+    "recycleFor": "7x Rubber Parts, 1x Speaker Components",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Sell"
+  },
+  {
+    "name": "Heavy Gun Parts",
+    "rarity": "Rare",
+    "recycleFor": "2x Simple Gun Parts",
+    "keepFor": "",
+    "sellPrice": "$700",
+    "action": "Keep"
+  },
+  {
+    "name": "Hornet Driver",
+    "rarity": "Rare",
+    "recycleFor": "2x ARC Alloy, 2x Electrical Components",
+    "keepFor": "5x for Gear Bench II Upgrade",
+    "sellPrice": "$2000",
+    "action": "Keep until upgrade is complete; recycle once done *(Sell if excess)*"
+  },
+  {
+    "name": "Household Cleaner",
+    "rarity": "Uncommon",
+    "recycleFor": "11x Chemicals",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Humidifier",
+    "rarity": "Rare",
+    "recycleFor": "2x Canister, 2x Wires",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Ice Cream Scooper",
+    "rarity": "Uncommon",
+    "recycleFor": "7x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Impure ARC Coolant",
+    "rarity": "Uncommon",
+    "recycleFor": "12x Chemicals",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle"
+  },
+  {
+    "name": "Industrial Battery",
+    "rarity": "Rare",
+    "recycleFor": "7x Chemicals, 2x Battery",
+    "keepFor": "3x for Gear Bench III Upgrade",
+    "sellPrice": "$1000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Industrial Charger",
+    "rarity": "Rare",
+    "recycleFor": "5x Metal Parts, 1x Voltage Converter",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Industrial Magnet",
+    "rarity": "Rare",
+    "recycleFor": "4x Metal Parts, 2x Magnet",
+    "keepFor": "",
+    "sellPrice": "$1000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Ion Sputter",
+    "rarity": "Epic",
+    "recycleFor": "4x Voltage Converter, 1x Exodus Modules",
+    "keepFor": "",
+    "sellPrice": "$6000",
+    "action": "Recycle if short on materials; if not, sell *Keep 3x for Expedition*"
+  },
+  {
+    "name": "Laboratory Reagents",
+    "rarity": "Rare",
+    "recycleFor": "16x Chemicals, 3x Crude Explosives",
+    "keepFor": "3x for Explosives Station III Upgrade",
+    "sellPrice": "$2000",
+    "action": "Keep until upgrade is complete; recycle once done"
+  },
+  {
+    "name": "Lance's Mixtape",
+    "rarity": "Epic",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$10000",
+    "action": "Sell"
+  },
+  {
+    "name": "Leaper Pulse Unit",
+    "rarity": "Epic",
+    "recycleFor": "3x Arc Alloy, 2x Advanced Mechanical Components",
+    "keepFor": "4x for Utility Station III Upgrade",
+    "sellPrice": "$5000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Lemon",
+    "rarity": "Uncommon",
+    "recycleFor": "3x Assorted Seeds",
+    "keepFor": "5x for Scrappy Level III Upgrade",
+    "sellPrice": "$640",
+    "action": "Keep until upgrade is complete; sell once done"
+  },
+  {
+    "name": "Light Gun Parts",
+    "rarity": "Rare",
+    "recycleFor": "2x Simple Gun Parts",
+    "keepFor": "",
+    "sellPrice": "$700",
+    "action": "Keep"
+  },
+  {
+    "name": "Light Bulb",
+    "rarity": "Uncommon",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$2000",
+    "action": "Sell"
+  },
+  {
+    "name": "Magnet",
+    "rarity": "Uncommon",
+    "recycleFor": "2x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$300",
+    "action": "Keep"
+  },
+  {
+    "name": "Magnetic Accelerator",
+    "rarity": "Epic",
+    "recycleFor": "1x Advanced Mechanical Components, 1x ARC Motion Core",
+    "keepFor": "",
+    "sellPrice": "$5500",
+    "action": "Keep for high-tier crafting; if excess, sell"
+  },
+  {
+    "name": "Magnetron",
+    "rarity": "Epic",
+    "recycleFor": "1x Magnetic Accelerator, 1x Steel Spring",
+    "keepFor": "",
+    "sellPrice": "$6000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Matriarch Reactor",
+    "rarity": "Legendary",
+    "recycleFor": "1x Power Rod, 1x Magnetic Accelerator",
+    "keepFor": "",
+    "sellPrice": "$13000",
+    "action": "Keep for high-tier crafting; if excess, sell"
+  },
+  {
+    "name": "Mechanical Components",
+    "rarity": "Uncommon",
+    "recycleFor": "3x Metal Parts, 2x Rubber Parts",
+    "keepFor": "5x for Gunsmith II Upgrade",
+    "sellPrice": "$640",
+    "action": "Keep"
+  },
+  {
+    "name": "Medium Gun Parts",
+    "rarity": "Rare",
+    "recycleFor": "2x Simple Gun Parts",
+    "keepFor": "",
+    "sellPrice": "$700",
+    "action": "Keep"
+  },
+  {
+    "name": "Metal Brackets",
+    "rarity": "Uncommon",
+    "recycleFor": "8x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Metal Parts",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "80x for Gunsmith I and Refiner I Upgrades",
+    "sellPrice": "$75",
+    "action": "Keep"
+  },
+  {
+    "name": "Microscope",
+    "rarity": "Rare",
+    "recycleFor": "1x Advanced Mechanical Components, 3x Magnet",
+    "keepFor": "",
+    "sellPrice": "$3000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Mini Centrifuge",
+    "rarity": "Rare",
+    "recycleFor": "1x Advanced Mechanical Components, 2x Canister",
+    "keepFor": "",
+    "sellPrice": "$3000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Mod Components",
+    "rarity": "Rare",
+    "recycleFor": "1x Mechanical Components, 1x Steel Spring",
+    "keepFor": "",
+    "sellPrice": "$1750",
+    "action": "Keep"
+  },
+  {
+    "name": "Moss",
+    "rarity": "Rare",
+    "recycleFor": "3x Assorted Seeds",
+    "keepFor": "",
+    "sellPrice": "$500",
+    "action": "Keep or Recycle"
+  },
+  {
+    "name": "Motor",
+    "rarity": "Rare",
+    "recycleFor": "2x Oil, 2x Mechanical Components",
+    "keepFor": "3x for Refiner III Upgrade",
+    "sellPrice": "$2000",
+    "action": "Recycle if short on materials; if not, sell"
+  },
+  {
+    "name": "Mushroom",
+    "rarity": "Common",
+    "recycleFor": "",
+    "keepFor": "12x for Scrappy Level V Upgrade",
+    "sellPrice": "$1000",
+    "action": "Keep until upgrade is complete; sell once done"
+  },
+  {
+    "name": "Music Box",
+    "rarity": "Rare",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$5000",
+    "action": "Sell"
+  },
+  {
+    "name": "Music Album",
+    "rarity": "Rare",
+    "recycleFor": "",
+    "keepFor": "",
+    "sellPrice": "$3000",
+    "action": "Sell"
+  },
+  {
+    "name": "Number Plate",
+    "rarity": "Uncommon",
+    "recycleFor": "3x Metal Parts",
+    "keepFor": "",
+    "sellPrice": "$270",
+    "action": "Recycle"
+  },
+  {
+    "name": "Oil",
+    "rarity": "Uncommon",
+    "recycleFor": "3x Chemicals",
+    "keepFor": "",
+    "sellPrice": "$300",
+    "action": "Keep"
+  },
+  {
+    "name": "Olives",
+    "rarity": "Uncommon",
+    "recycleFor": "2x Assorted Seeds",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Safe to sell after upgrading Scrappy to level 4."
+  },
+  {
+    "name": "test",
+    "rarity": "Uncommon",
+    "recycleFor": "2x Assorted Seeds",
+    "keepFor": "",
+    "sellPrice": "$640",
+    "action": "Safe to sell after upgrading Scrappy to level 4."
+  }
+]

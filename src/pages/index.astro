@@ -1,0 +1,165 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+export interface Item {
+  name: string;
+  rarity: "Common" | "Uncommon" | "Rare" | "Epic" | "Legendary";
+  recycleFor?: string;
+  keepFor?: string;
+  sellPrice?: string;
+  action?: string;
+}
+---
+
+<Layout title="Raiders Item Handbook">
+  <main
+    class="min-h-screen bg-linear-to-b from-slate-900 to-black text-slate-200 font-sans"
+  >
+    <div class="max-w-7xl mx-auto px-6 py-10">
+      <header class="text-center mb-10">
+        <h1
+          class="text-3xl tracking-[0.35em] uppercase font-semibold text-cyan-300 drop-shadow"
+        >
+          Raiders Item Handbook
+        </h1>
+
+        <p class="mt-4 text-center text-slate-400 text-sm">
+          A searchable list of items from
+          <a
+            href="https://www.reddit.com/user/pRoDeeD/"
+            class="text-cyan-400 hover:text-cyan-500 font-semibold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            u/pRoDeeD
+          </a>
+          , based on their
+          <a
+            href="https://www.reddit.com/r/ArcRaiders/comments/1qejwdq/oc_arc_raiders_master_cheat_sheet_v32_16x9_pdf/"
+            class="text-cyan-400 hover:text-cyan-500 font-semibold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Master Cheat Sheet
+          </a>.
+        </p>
+      </header>
+
+      <label class="block mb-7">
+        <span class="sr-only">Search items</span>
+        <input
+          id="search"
+          type="search"
+          placeholder="Query database…"
+          autocomplete="off"
+          class="w-full rounded-md bg-slate-800/80 border border-slate-700 px-4 py-3 text-sm text-slate-200 placeholder-slate-400
+                focus:outline-none focus:ring-2 focus:ring-cyan-400/40 focus:border-cyan-400"
+        />
+      </label>
+
+      <div
+        class="overflow-hidden rounded-xl border border-slate-700 bg-slate-900/70"
+      >
+        <table id="item-table" class="w-full border-collapse text-sm">
+          <thead class="bg-linear-to-b from-slate-800 to-slate-900">
+            <tr>
+              <th
+                class="px-4 py-3 text-left text-xs tracking-widest uppercase text-slate-400"
+                >Name</th
+              >
+              <th
+                class="px-4 py-3 text-left text-xs tracking-widest uppercase text-slate-400"
+                >Rarity</th
+              >
+              <th
+                class="px-4 py-3 text-left text-xs tracking-widest uppercase text-slate-400"
+                >Recycle For</th
+              >
+              <th
+                class="px-4 py-3 text-left text-xs tracking-widest uppercase text-slate-400"
+                >Keep For</th
+              >
+              <th
+                class="px-4 py-3 text-left text-xs tracking-widest uppercase text-slate-400"
+                >Sell Price</th
+              >
+              <th
+                class="px-4 py-3 text-left text-xs tracking-widest uppercase text-slate-400"
+                >Action</th
+              >
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <p id="no-results" class="hidden mt-10 text-center text-slate-400">
+        No items match your query.
+      </p>
+    </div>
+
+    <script is:inline lang="js">
+      async function init() {
+        try {
+          const res = await fetch("/items.json");
+          if (!res.ok) throw new Error(`Failed to load items: ${res.status}`);
+          const items = await res.json();
+
+          const tbody = document.querySelector("#item-table tbody");
+          const searchEl = document.querySelector("#search");
+          const noResults = document.getElementById("no-results");
+
+          const rarityClass = (rarity) => `rarity-${rarity.toLowerCase()}`;
+
+          const renderItems = (list) => {
+            tbody.innerHTML = "";
+            noResults.hidden = list.length > 0;
+
+            list.forEach((item) => {
+              const tr = document.createElement("tr");
+              tr.className =
+                "border-t border-white/5 hover:bg-cyan-400/5 transition-colors";
+
+              tr.innerHTML = `
+                <td class="px-4 py-3 font-medium tracking-wide">${item.name}</td>
+                <td class="px-4 py-3">
+                  <span class="
+                    inline-block min-w-[92px] rounded-full px-3 py-1 text-[10px] font-bold tracking-widest uppercase
+                    border backdrop-blur
+                    ${rarityClass(item.rarity)}
+                  ">
+                    ${item.rarity}
+                  </span>
+                </td>
+                <td class="px-4 py-3">${item.recycleFor ?? ""}</td>
+                <td class="px-4 py-3">${item.keepFor ?? ""}</td>
+                <td class="px-4 py-3">${item.sellPrice ?? ""}</td>
+                <td class="px-4 py-3">${item.action ?? ""}</td>
+              `;
+              tbody.appendChild(tr);
+            });
+          };
+
+          renderItems(items);
+
+          searchEl.addEventListener("input", () => {
+            const q = searchEl.value.trim().toLowerCase();
+            if (!q) return renderItems(items);
+
+            renderItems(
+              items.filter((i) =>
+                [i.name, i.rarity, i.recycleFor, i.keepFor, i.action].some(
+                  (v) => v?.toLowerCase().includes(q),
+                ),
+              ),
+            );
+          });
+        } catch (err) {
+          console.error(err);
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", init);
+    </script>
+  </main>
+</Layout>
