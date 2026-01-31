@@ -1,34 +1,8 @@
-# Astro Starter Kit: Basics
+# Raiders Handbook
 
-```sh
-bun create astro@latest -- --template basics
-```
+A lightweight search tool designed for quick reference during or after a raid. This project provides a simple, parsable dataset inspired by [u/pRoDeeD](https://www.reddit.com/user/pRoDeeD/) [Master Cheat Sheet](https://www.reddit.com/r/ArcRaiders/comments/1qejwdq/oc_arc_raiders_master_cheat_sheet_v32_16x9_pdf/).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
+## Want to build locally?
 
 All commands are run from the root of the project, from a terminal:
 
@@ -38,9 +12,3 @@ All commands are run from the root of the project, from a terminal:
 | `bun dev`             | Starts local dev server at `localhost:4321`      |
 | `bun build`           | Build your production site to `./dist/`          |
 | `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
